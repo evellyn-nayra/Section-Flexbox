@@ -1,0 +1,20 @@
+/* Usando o * conforme abaixo, significa que toda e qualquer edição feita no arquivo recaia em todo aquivo html */
+*{
+margin: 0;
+padding: 0;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    display: flex; /* para deixar os itens alinhados lado a lado dentro do header */
+    justify-content: space-between;  /*  */
+    align-items: center; /* Alinhando o icone */
+    background-color: black;
+    padding: 60px;
+    flex-wrap: wrap; /*tag que autoriza a quebra de linha para ajustar a tela*/
+}
+
+.header i{
+    font-size: 100px;
+    color: aqua;
+}
