@@ -5,10 +5,10 @@ padding: 0;
 font-family: 'Courier New', Courier, monospace;
 }
 
-.header{
+.header {
     display: flex; /* para deixar os itens alinhados lado a lado dentro do header */
-    justify-content: space-between;  /*  */
-    align-items: center; /* Alinhando o icone */
+    justify-content: space-between;  /* faz com que o icone fique de um lado da tela e os demais atributos fiquem do lado oposto*/
+    align-items: center;/* Alinhando o icone */
     background-color: black;
     padding: 60px;
     flex-wrap: wrap; /*tag que autoriza a quebra de linha para ajustar a tela*/
@@ -16,5 +16,56 @@ font-family: 'Courier New', Courier, monospace;
 
 .header i{
     font-size: 100px;
-    color: aqua;
+    color: rgb(4, 73, 133);
+}
+
+.menu li a {
+    text-decoration: none; /*retirando a decoração de texto que vem automaticamente com a tag que foi chamada*/
+    color:aliceblue;
+    background-color: rgb(4, 73, 133);
+    padding: 10px;
+}
+
+.menu li{
+    margin-left: 15px; /* margem direita para separar os textos do menu, para que fiquem lado a lado mas não colados*/
+}
+
+.menu{
+    display: flex;
+}
+
+h2{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flex img{
+    max-width: 100%; /*Adaptação maxima da imagem na pagina dentro da "div"*/
+    display: block; /*Reforçando que minhas imagens estejam em formatos de blocos*/
+}
+
+.flex{
+    display: flex; /* aqui determinamos que as imagens fiquem lado a lado na pagina*/
+    flex-wrap: wrap; /* aqui informamos que os itens podem "quebrar" para se adaptar a telas menores*/
+    max-width: 1000px; /*adaptação maxima dos conteudos que estão dentro da section (flex)*/
+    margin: 0 auto; /* centralizando as div*/
+    margin-bottom: 80px;
+}
+
+.flex div {
+    margin: 10px; /*Espaçamento das margens laterais*/
+    flex: 1 1 250px; /* */
+}
+
+.flex p{
+    text-align: center;
+}
+
+.sessao2{
+    background-color: rgb(4, 73, 133);
+    color: aliceblue;
+    width: auto;
+    height: 200px;
+    text-align: justify;
+    padding: 80px;
 }
