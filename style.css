@@ -69,3 +69,62 @@ h2{
     text-align: justify;
     padding: 80px;
 }
+
+.footer{
+    background-color: black;
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.menu2 li a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+   
+    
+}
+
+.menu2 li{
+    margin-left: 30px;
+}
+
+.menu2{
+    display: flex;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-instagram{
+    color: black;
+    background-color: rgb(4, 73, 133);
+    font-size: 25px;
+    padding: 5px;
+}
+
+.fa-whatsapp{
+    color: black;
+    background-color: rgb(4, 73, 133);
+    font-size: 25px;
+    padding: 5px;
+}
+
+.fa-twitter{
+    color: black;
+    background-color: rgb(4, 73, 133);
+    font-size: 25px;
+    padding: 5px;
+}
+
+.redes i{
+    margin-left: 15px;
+}
+
